@@ -73,7 +73,7 @@ async function db(op, a, b, c) {
             }
             return db.s
         }
-    })[op]?.())
+    })[op]?.() || `${op} function is not supported`)
 }
 
 
@@ -95,4 +95,5 @@ await db('push', 'Array', 'stop')  // Push the value in Array
 console.log(await db('get', 'Array')) // Get the value of Array
 await db('save', 'db.json') // Save data in JSON file
 await db('save', 'db.pdf') // Save data in PDF file
-console.log(await db('load', 'db.pdf')) //Load file data
+console.log(await db('load', 'db.pdf')) // Load file data
+console.log(await db('lod', 'db.pdf')) // Wrong function called
