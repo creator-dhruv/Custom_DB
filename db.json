@@ -1,0 +1,22 @@
+{
+  "user_1": {
+    "name": "Dhruv",
+    "age": 20,
+    "city": "Delhi"
+  },
+  "user_2": {
+    "name": "Harsh",
+    "age": 30,
+    "city": "Mumbai"
+  },
+  "user_3": {
+    "name": "Aryan",
+    "age": 22,
+    "city": "Delhi"
+  },
+  "visits": 2,
+  "Array": [
+    "start",
+    "stop"
+  ]
+}
